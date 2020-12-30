@@ -27,5 +27,10 @@ namespace mgApi.Controllers
             return StatusCode(201,"Inseri aqui");
         }
 
+        public ActionResult getUtilitario(){
+            var utili=_utilitarioCollection.Find(
+                Builders<Utilitario>.Filter.Empty).ToList();
+        }
+
     }
 }
