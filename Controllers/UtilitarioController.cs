@@ -12,8 +12,14 @@ namespace mgApi.Controllers
         IMongoCollection<Utilitario> _utilitarioCollection;
 
         public UtilitarioController(Data.MongoDB mgdb){
+            _mongoDB = mgdb;
+            _utilitarioCollection = _mongoDB.DB.GetCollection<Utilitario>(
+                typeof(Utilitario).Name.ToLower()
+            );
 
         }
+        [HttpPost]
+        public ActionResult
 
     }
 }
