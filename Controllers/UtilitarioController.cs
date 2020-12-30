@@ -24,7 +24,7 @@ namespace mgApi.Controllers
             var current_Utilitario = new Utilitario(mydto.DataNascimento,mydto.descricao
             ,mydto.latitude,mydto.longitude);
             _utilitarioCollection.InsertOne(current_Utilitario);
-            return StatusCode(201,"Inseri aqui");
+            return StatusCode(201,"Inseri aqui o tal do "+current_Utilitario.descricao);
         }
         [HttpGet]
         public ActionResult getUtilitario(){

@@ -37,7 +37,7 @@ namespace mgApi.Data
                         
                     });
                 }
-            throw new NotImplementedException();
+            
         }
     }
 }
