@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace mgApi.Controllers
 {
     [ApiController]
-    
+    [Route("[controller]")]
     public class UtilitarioController: ControllerBase
     {
         private readonly Context _context;
