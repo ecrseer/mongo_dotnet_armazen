@@ -26,10 +26,11 @@ namespace mgApi.Controllers
             _utilitarioCollection.InsertOne(current_Utilitario);
             return StatusCode(201,"Inseri aqui");
         }
-
+        [HttpGet]
         public ActionResult getUtilitario(){
             var utili=_utilitarioCollection.Find(
                 Builders<Utilitario>.Filter.Empty).ToList();
+                return Ok(utili);
         }
 
     }
