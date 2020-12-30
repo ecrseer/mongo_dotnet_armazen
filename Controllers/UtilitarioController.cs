@@ -1,4 +1,5 @@
 using mgApi.Data.Collections;
+using mgApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 
@@ -19,7 +20,12 @@ namespace mgApi.Controllers
 
         }
         [HttpPost]
-        public ActionResult
+        public ActionResult postUtilitario([FromBody] UtilitarioDto mydto){
+            var current_Utilitario = new Utilitario(mydto.DataNascimento,mydto.descricao
+            ,mydto.latitude,mydto.longitude);
+            _utilitarioCollection.InsertOne(current_Utilitario);
+            return StatusCode(201,"Inseri aqui");
+        }
 
     }
 }
