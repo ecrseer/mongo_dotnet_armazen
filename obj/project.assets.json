@@ -5307,26 +5307,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Elastico\\.nuget\\packages\\": {}
+    "/home/nublado/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\code\\code12-2020\\studio_mongo\\mgApi\\mgApi.csproj",
+      "projectUniqueName": "/home/nublado/Documents/code01-2021/netcore/mgApi/mgApi.csproj",
       "projectName": "mgApi",
-      "projectPath": "D:\\Personal\\code\\code12-2020\\studio_mongo\\mgApi\\mgApi.csproj",
-      "packagesPath": "C:\\Users\\Elastico\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\code\\code12-2020\\studio_mongo\\mgApi\\obj\\",
+      "projectPath": "/home/nublado/Documents/code01-2021/netcore/mgApi/mgApi.csproj",
+      "packagesPath": "/home/nublado/.nuget/packages/",
+      "outputPath": "/home/nublado/Documents/code01-2021/netcore/mgApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Elastico\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/nublado/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5386,7 +5384,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

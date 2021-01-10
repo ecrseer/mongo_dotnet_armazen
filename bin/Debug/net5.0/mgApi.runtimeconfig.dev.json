@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Elastico\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Elastico\\.nuget\\packages"
+      "/home/nublado/.dotnet/store/|arch|/|tfm|",
+      "/home/nublado/.nuget/packages"
     ]
   }
 }
