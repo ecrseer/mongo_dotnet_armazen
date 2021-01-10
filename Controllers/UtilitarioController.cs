@@ -15,7 +15,8 @@ namespace mgApi.Controllers
         public UtilitarioController(Data.MongoDB mgdb){
             _mongoDB = mgdb;
             _utilitarioCollection = _mongoDB.DB.GetCollection<Utilitario>(
-                typeof(Utilitario).Name.ToLower()
+                typeof(Utilitario)
+                .Name.ToLower()
             );
 
         }
